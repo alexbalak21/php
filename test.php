@@ -1,4 +1,1 @@
-<form action="" method="get">
-    <input type="text" name="video" value="some.mp4">
-    <input type="submit" value="Submit">
-</form>
+<video src="http://alexwebdev.unaux.com/videos/Javascript - CwM/1 - Fundamentals/1- Getting Started\1- Welcome.mp4" controls></video>

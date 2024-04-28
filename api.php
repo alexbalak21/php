@@ -61,10 +61,15 @@
     foreach ($dirs as $dir) {
         if (basename($dir) !== "subtitles") {
             $name = basename($dir);
-            $data[] = ['name' => $name];
             $videos = listMp4Files($dir);
             if ($videos !== []) {
-                $data[] = ["videos" => $videos];
+                $video_adresses = ['name' =>  $name, 'videos' => []];
+                foreach ($videos as $video) {
+                    $video_adresses['videos'][] = "$dir/$video";
+                }
+                $data[] = $video_adresses;
+            } else {
+                $data[] =  basename($dir);
             }
         }
     }
