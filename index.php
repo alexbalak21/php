@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>Video Index</title>
 </head>
 
 <?php
@@ -69,7 +69,6 @@ function listMp4Files($dir)
 
         $DIR = "videos";
         $dirs = listDirectories($DIR);
-        $dirVideos = [];
         foreach ($dirs as $dir) {
             $name = basename($dir) !== "subtitles" ? basename($dir) : "";
             echo "<h3>$name</h3>";
@@ -78,7 +77,7 @@ function listMp4Files($dir)
                 echo "<ul>";
                 foreach ($videos as $video) {
                     $vide_name = trim($video, ".mp4");
-                    echo "<li><a href='$dir\\$video'>$vide_name</a></li>";
+                    echo "<li><a href='video.php?video=$dir\\$video'>$vide_name</a></li>";
                 }
                 echo "</ul>";
             }

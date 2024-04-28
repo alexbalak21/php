@@ -1,0 +1,29 @@
+[28/Apr/2024:17:49:33 +0200] [upstream] Upstream starting: npx next start (env: {'HOME': '/home/next', 'LANG': 'en_US.UTF-8', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/home/next/.local/bin:/home/next/.local/share/gem/ruby/3.1.0/bin:/home/next/.gem/ruby/3.1.0/bin:/home/next/.composer/vendor/bin:/home/next/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin', 'TMPDIR': '/home/next/admin/tmp', 'NODEJS_VERSION': '20.11.1', 'HOST': 'fd00::5:7899', 'PORT': '8100', 'IP': 'fd00::5:7899'}, cwd: /home/next/www)
+[28/Apr/2024:17:49:33 +0200] [upstream] Upstream started PID: 1760938
+[28/Apr/2024:17:49:34 +0200] [upstream] [1760938] STDERR: npm ERR! code Unknown system error -122
+[28/Apr/2024:17:49:34 +0200] [upstream] [1760938] STDERR: npm ERR! syscall open
+[28/Apr/2024:17:49:34 +0200] [upstream] [1760938] STDERR: npm ERR! path /home/next/.npm/_cacache/tmp/02649cdf
+[28/Apr/2024:17:49:34 +0200] [upstream] [1760938] STDERR: npm ERR! errno -122
+[28/Apr/2024:17:49:34 +0200] [upstream] [1760938] STDERR: npm ERR! Unknown system error -122: Unknown system error -122, open '/home/next/.npm/_cacache/tmp/02649cdf'
+[28/Apr/2024:17:49:34 +0200] [upstream] [1760938] STDERR: 
+[28/Apr/2024:17:49:34 +0200] [upstream] [1760938] STDERR: npm ERR! Log files were not written due to an error writing to the directory: /home/next/.npm/_logs
+[28/Apr/2024:17:49:34 +0200] [upstream] [1760938] STDERR: npm ERR! You can rerun the command with `--loglevel=verbose` to see the logs in your terminal
+[28/Apr/2024:17:49:34 +0200] [upstream] Upstream starting failed: npx next start (return code: 134 | reason: -)
+[28/Apr/2024:17:49:35 +0200] [upstream] Upstream npx next start previously failed to start, will not start again until 17:49:36
+[28/Apr/2024:17:50:22 +0200] [upstream] Upstream starting: npx next start (env: {'HOME': '/home/next', 'LANG': 'en_US.UTF-8', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/home/next/.local/bin:/home/next/.local/share/gem/ruby/3.1.0/bin:/home/next/.gem/ruby/3.1.0/bin:/home/next/.composer/vendor/bin:/home/next/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin', 'TMPDIR': '/home/next/admin/tmp', 'NODEJS_VERSION': '21.7.1', 'HOST': 'fd00::5:7899', 'PORT': '8100', 'IP': 'fd00::5:7899'}, cwd: /home/next/www)
+[28/Apr/2024:17:50:22 +0200] [upstream] Upstream started PID: 1767225
+[28/Apr/2024:17:50:24 +0200] [upstream] [1767225] STDERR: npm notice 
+[28/Apr/2024:17:50:24 +0200] [upstream] [1767225] STDERR: npm notice New minor version of npm available! 10.5.0 -> 10.6.0
+[28/Apr/2024:17:50:24 +0200] [upstream] [1767225] STDERR: npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.6.0>
+[28/Apr/2024:17:50:24 +0200] [upstream] [1767225] STDERR: npm notice Run `npm install -g npm@10.6.0` to update!
+[28/Apr/2024:17:50:24 +0200] [upstream] [1767225] STDERR: npm notice 
+[28/Apr/2024:17:50:24 +0200] [upstream] [1767225] STDERR: npm ERR! code Unknown system error -122
+[28/Apr/2024:17:50:24 +0200] [upstream] [1767225] STDERR: npm ERR! syscall open
+[28/Apr/2024:17:50:24 +0200] [upstream] [1767225] STDERR: npm ERR! path /home/next/.npm/_cacache/tmp/b2720d4f
+[28/Apr/2024:17:50:24 +0200] [upstream] [1767225] STDERR: npm ERR! errno -122
+[28/Apr/2024:17:50:24 +0200] [upstream] [1767225] STDERR: npm ERR! Unknown system error -122: Unknown system error -122, open '/home/next/.npm/_cacache/tmp/b2720d4f'
+[28/Apr/2024:17:50:24 +0200] [upstream] [1767225] STDERR: 
+[28/Apr/2024:17:50:24 +0200] [upstream] [1767225] STDERR: npm ERR! Log files were not written due to an error writing to the directory: /home/next/.npm/_logs
+[28/Apr/2024:17:50:24 +0200] [upstream] [1767225] STDERR: npm ERR! You can rerun the command with `--loglevel=verbose` to see the logs in your terminal
+[28/Apr/2024:17:50:24 +0200] [upstream] Upstream starting failed: npx next start (return code: 134 | reason: -)
+[28/Apr/2024:17:50:24 +0200] [upstream] Upstream npx next start previously failed to start, will not start again until 17:50:25
